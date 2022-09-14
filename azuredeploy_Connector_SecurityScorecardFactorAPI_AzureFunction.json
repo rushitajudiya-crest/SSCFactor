@@ -34,7 +34,7 @@
         },
         "SECURITY_SCORECARD_FACTOR_TABLE_NAME":{
             "type": "string",
-            "defaultValue": "SecurityScorecardFactor_CL"
+            "defaultValue": "SecurityScorecardFactor"
         },
         "LEVEL_FACTOR_CHANGE":{
             "type": "string",
@@ -42,7 +42,7 @@
         },
         "FactorSchedule":{
             "type": "string",
-            "defaultValue": "0 */20 * * * *"
+            "defaultValue": "0 15 * * * *"
         },
         "DIFF_OVERRIDE_OWN_FACTOR":{
             "type": "bool",
@@ -189,7 +189,7 @@
                         "Schedule": "[parameters('FactorSchedule')]",
                         "DIFF_OVERRIDE_OWN_FACTOR": "[parameters('DIFF_OVERRIDE_OWN_FACTOR')]",
                         "DIFF_OVERRIDE_PORTFOLIO_FACTOR": "[parameters('DIFF_OVERRIDE_PORTFOLIO_FACTOR')]",
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/rushitajudiya-crest/SSCFactor/blob/main/SecurityScorecardFactor.zip?raw=true"
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://aka.ms/sentinel-SecurityScorecardFactorAPI-functionapp"
                     }
                 }
             ]
