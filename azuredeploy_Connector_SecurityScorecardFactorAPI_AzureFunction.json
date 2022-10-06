@@ -189,7 +189,7 @@
                         "Schedule": "[parameters('FactorSchedule')]",
                         "DIFF_OVERRIDE_OWN_FACTOR": "[parameters('DIFF_OVERRIDE_OWN_FACTOR')]",
                         "DIFF_OVERRIDE_PORTFOLIO_FACTOR": "[parameters('DIFF_OVERRIDE_PORTFOLIO_FACTOR')]",
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/rushitajudiya-crest/SSCFactor/blob/main/SecurityScorecardFactor.zip?raw=true"
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/rushitajudiya-crest/SSCFactor/blob/test/SecurityScorecardFactor.zip?raw=true"
                     }
                 }
             ]
